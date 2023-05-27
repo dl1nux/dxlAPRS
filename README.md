@@ -38,7 +38,7 @@ GIF icons created by Thorsten DO1TNP located in `/icon-udpate/*` can be copied t
 ARMv7:
 ```
 cd ~
-wget https://raw.githubusercontent.com/dl1nux/dxlAPRS-update/main/dxlAPRS_armv7hf-current.tgz
+wget https://github.com/dl1nux/dxlAPRS/raw/main/dxlAPRS_armv7hf-current.tgz
 tar xzvf dxlAPRS_armv7hf-current.tgz --strip=1 scripts/updateDXLaprs
 ./updateDXLaprs dxlAPRS_armv7hf-current.tgz
 ```
@@ -46,7 +46,7 @@ tar xzvf dxlAPRS_armv7hf-current.tgz --strip=1 scripts/updateDXLaprs
 ARMv6:
 ```
 cd ~
-wget https://raw.githubusercontent.com/dl1nux/dxlAPRS-update/main/dxlAPRS_armv6-current.tgz
+wget https://github.com/dl1nux/dxlAPRS/raw/main/dxlAPRS_armv6-current.tgz
 tar xzvf dxlAPRS_armv6-current.tgz --strip=1 scripts/updateDXLaprs
 ./updateDXLaprs dxlAPRS_armv6-current.tgz
 ```
@@ -54,7 +54,7 @@ tar xzvf dxlAPRS_armv6-current.tgz --strip=1 scripts/updateDXLaprs
 Linux x86-64
 ```
 cd ~
-wget https://raw.githubusercontent.com/dl1nux/dxlAPRS-update/main/dxlAPRS_x86_64-current.tgz
+wget https://github.com/dl1nux/dxlAPRS/raw/main/dxlAPRS_x86_64-current.tgz
 tar xzvf dxlAPRS_x86_64-current.tgz --strip=1 scripts/updateDXLaprs
 ./updateDXLaprs dxlAPRS_x86_64-current.tgz
 ```
@@ -62,7 +62,7 @@ tar xzvf dxlAPRS_x86_64-current.tgz --strip=1 scripts/updateDXLaprs
 Linux x86-32
 ```
 cd ~
-wget https://raw.githubusercontent.com/dl1nux/dxlAPRS-update/main/dxlAPRS_x86_32-current.tgz
+wget https://github.com/dl1nux/dxlAPRS/raw/main/dxlAPRS_x86_32-current.tgz
 tar xzvf dxlAPRS_x86_32-current.tgz --strip=1 scripts/updateDXLaprs
 ./updateDXLaprs dxlAPRS_x86_32-current.tgz
 ```
