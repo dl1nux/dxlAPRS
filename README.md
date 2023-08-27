@@ -1,7 +1,7 @@
 # dxlAPRS
 dxlAPRS Archives by OE5HPM
 
-Last Update: May 27th 2023
+Last Update: Aug 27th 2023
 
 This repository contains the dxlAPRS archives from http://dxlaprs.hamspirit.at/
 In 2023 the site was down longer time, so I decided to provide the archives here and additionally some "updates".
@@ -17,10 +17,11 @@ There are no starting scripts for APRS or radiosonde reception included in the a
 - dxlAPRS Wiki in german language by DL1NUX: https://dxlwiki.dl1nux.de
 
 ## Archive files
-- `dxlAPRS_armv6-current.tgz` (RaspberryPi 1B or Zero W/H, 32 bit only, Archive Version June 2nd 2022)
-- `dxlAPRS_armv7hf-current.tgz` (RaspberryPi 2 and up, BananaPi, OrangePi etc., 32bit only, Archive Version June 2nd 2022)
-- `dxlAPRS_x86_32-current.tgz` (Linux x86 PCs, 32 bit, Archive Version March 13th 2021 - please message me if you have the last one from June 2022!)
-- `dxlAPRS_x86_64-current.tgz` (Linux X86 PCs, 64 bit, Archive Version June 2nd 2022)
+- `dxlAPRS_armv6-current.tgz` (RaspberryPi 1B or Zero W/H, 32 bit only)
+- `dxlAPRS_armv6tce-current.tgz` (Tinycore Linux Edition, 32 bit only)
+- `dxlAPRS_armv7hf-current.tgz` (RaspberryPi 2 and up, BananaPi, OrangePi etc., 32bit only)
+- `dxlAPRS_x86_32-current.tgz` (Linux x86 PCs, 32 bit)
+- `dxlAPRS_x86_64-current.tgz` (Linux X86 PCs, 64 bit)
 
 ## Additional files
 These files are newer and not included in the archives. Copy them to `/dxlAPRS/aprs/www/`.
