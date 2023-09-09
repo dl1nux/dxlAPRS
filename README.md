@@ -1,7 +1,7 @@
 # dxlAPRS
 dxlAPRS Archives by OE5HPM
 
-Last Update: Aug 27th 2023
+Last Update: Sep 9th 2023
 
 This repository contains the dxlAPRS archives from http://dxlaprs.hamspirit.at/
 In 2023 the site was down longer time, so I decided to provide the archives here and additionally some "updates".
@@ -17,6 +17,7 @@ There are no starting scripts for APRS or radiosonde reception included in the a
 - dxlAPRS Wiki in german language by DL1NUX: https://dxlwiki.dl1nux.de
 
 ## Archive files
+- `dxlAPRS_aarch64-current.tgz` (ARMv8 64bit)
 - `dxlAPRS_armv6-current.tgz` (RaspberryPi 1B or Zero W/H, 32 bit only)
 - `dxlAPRS_armv6tce-current.tgz` (Tinycore Linux Edition, 32 bit only)
 - `dxlAPRS_armv7hf-current.tgz` (RaspberryPi 2 and up, BananaPi, OrangePi etc., 32bit only)
@@ -24,7 +25,7 @@ There are no starting scripts for APRS or radiosonde reception included in the a
 - `dxlAPRS_x86_64-current.tgz` (Linux X86 PCs, 64 bit)
 
 ## Additional files
-These files are newer and not included in the archives. Copy them to `/dxlAPRS/aprs/www/`.
+These files were not included in older versions of the archives. If you need them now, copy them to `/dxlAPRS/aprs/www/`.
 - `maplink.txt` : Link for showing stations positions on Openstreetmap (click on callsign package counter in webinterface)
 - `objectlink.txt` : Link for Radiosonde APRS Objects in object MH-List (click on object call)
 - `style.css` : Optional CSS-File for better readability of the webinterface with bigger fonts
@@ -66,6 +67,14 @@ cd ~
 wget https://github.com/dl1nux/dxlAPRS/raw/main/dxlAPRS_x86_32-current.tgz
 tar xzvf dxlAPRS_x86_32-current.tgz --strip=1 scripts/updateDXLaprs
 ./updateDXLaprs dxlAPRS_x86_32-current.tgz
+```
+
+ARMv8 64bit:
+```
+cd ~
+wget https://github.com/dl1nux/dxlAPRS/raw/main/dxlAPRS_aarch64-current.tgz
+tar xzvf dxlAPRS_aarch64-current.tgz --strip=1 scripts/updateDXLaprs
+./updateDXLaprs dxlAPRS_aarch64-current.tgz
 ```
 
 73 de Attila DL1NUX
