@@ -1,7 +1,7 @@
 # dxlAPRS
 dxlAPRS Archives by OE5HPM
 
-Last Update: Sep 9th 2023
+Last Update: Feb 1st 2024
 
 This repository contains the dxlAPRS archives from http://dxlaprs.hamspirit.at/
 In 2023 the site was down longer time, so I decided to provide the archives here and additionally some "updates".
