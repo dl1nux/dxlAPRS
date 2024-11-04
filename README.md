@@ -1,11 +1,13 @@
 # dxlAPRS
 dxlAPRS Archives by OE5HPM
 
-Last Update: September 1st 2024
+Last Update: November 4th 2024
 
 This repository contains the dxlAPRS archives from http://dxlaprs.hamspirit.at/
 In 2023 the site was down longer time, so I decided to provide the archives here and additionally some "updates".
 There are no starting scripts for APRS or radiosonde reception included in the archives, but examples can be downloaded in my other Github repositories.
+
+*I am not the author of the dxlAPRS Software. If you have queries ir questions, you may joyn the dxlAPRS Telegram Community or contact CHris OE5DXL directly by E-Mail.*
 
 ## References
 
