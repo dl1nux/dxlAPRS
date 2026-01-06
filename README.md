@@ -1,7 +1,7 @@
 # dxlAPRS
 dxlAPRS Archives by OE5HPM
 
-Last Update: January 3rd 2025
+Last Update: January 6th 2026
 
 This repository contains the dxlAPRS archives from http://dxlaprs.hamspirit.at/
 In 2023 the site was down longer time, so I decided to provide the archives here and additionally some "updates".
@@ -18,10 +18,11 @@ https://t.me/joinchat/CRNMIBpKRcfQEBTPKLS0zg
 - Script for updating the installation with the newest compiled binaries by OE5DXL: https://github.com/dl1nux/dxlAPRS-update
 - Scripts for APRS operation: https://github.com/dl1nux/dxlAPRS-APRS-Skripte
 - Scripts for radiosonde operation: https://github.com/dl1nux/dxlAPRS-radiosonde-rx
+- Scripts for radiosonde operation with scanner from DO2JMG : https://github.com/dl1nux/dxlAPRS-radiosonde-rx-mit-scanner
 - dxlAPRS Wiki in german language by DL1NUX: https://dxlwiki.dl1nux.de
 
 ## Archive files
-- `dxlAPRS_aarch64-current.tgz` (ARMv8 64bit)
+- `dxlAPRS_aarch64-current.tgz` (ARMv8 64bit) -> Unfortunately does not work on Raspberry Pi OS 64 bit
 - `dxlAPRS_armv6-current.tgz` (RaspberryPi 1B or Zero W/H, 32 bit only)
 - `dxlAPRS_armv6tce-current.tgz` (Tinycore Linux Edition, 32 bit only)
 - `dxlAPRS_armv7hf-current.tgz` (RaspberryPi 2 and up, BananaPi, OrangePi etc., 32bit only)
@@ -80,5 +81,10 @@ wget https://github.com/dl1nux/dxlAPRS/raw/main/dxlAPRS_aarch64-current.tgz
 tar xzvf dxlAPRS_aarch64-current.tgz --strip=1 scripts/updateDXLaprs
 ./updateDXLaprs dxlAPRS_aarch64-current.tgz
 ```
+
+## Important
+
+After installation, please remove /dxlAPRS/aprs/www/index.html file.
+Integrated Webinterface will not open if this file exists.
 
 73 de Attila DL1NUX
